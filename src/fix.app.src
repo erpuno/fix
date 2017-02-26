@@ -1,0 +1,9 @@
+{application, fix, [
+    {description,  "FIX Alkotrading, Inc."},
+    {vsn,          "4.2"},
+    {applications, [kernel, stdlib]},
+    {modules, []},
+    {registered,   []},
+    {mod, { fix, []}},
+    {env, []}
+]}.
