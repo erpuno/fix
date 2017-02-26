@@ -4,7 +4,7 @@
 -compile(export_all).
 -export([ start/2, stop/1, start_phase/3, prep_stop/1, config_change/3 ]).
 
-test() -> eunit:test(fix_parser).
+test() -> eunit:test(fix).
 gen() -> fix_gen:generate("priv/FIX42.xml").
 
 start(Type, StartArgs) ->
