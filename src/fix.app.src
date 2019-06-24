@@ -1,6 +1,6 @@
 {application, fix, [
     {description,  "FIX Alkotrading, Inc."},
-    {vsn,          "4.2"},
+    {vsn,          "4.6.0"},
     {applications, [kernel, stdlib]},
     {modules, []},
     {registered,   []},

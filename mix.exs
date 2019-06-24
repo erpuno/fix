@@ -4,7 +4,7 @@ defmodule FIX.Mixfile do
   def project() do
     [
       app: :fix,
-      version: "0.6.0",
+      version: "4.6.0",
       description: "FIX Financial Information Exchange",
       package: package(),
       elixir: "~> 1.7",
